@@ -1,0 +1,19 @@
+{
+    "experiment": "zero_filled_cartesian",
+    "data_root": "data/demo_brain256",
+    "num_samples": 16,
+    "image_size": 256,
+    "sampling": {
+        "type": "cartesian_random",
+        "acceleration": 4,
+        "center_fraction": 0.08,
+        "actual_sampling_percentage": 25.0
+    },
+    "metrics": {
+        "mse": 1.2114398089124734e-06,
+        "mae": 0.0008916514780139551,
+        "nmse": 1.3220165328675648e-05,
+        "psnr": 59.159196853637695,
+        "ssim": 0.999296024441719
+    }
+}
