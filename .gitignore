@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Logs and experiment trackers
+logs/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# Training outputs
+checkpoints/
+saved_models/
+outputs/
+experiments/
+model_zoo/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Datasets
+data/
+datasets_raw/
+fastMRI/
+IXI/
+CC359/
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+
+# Large compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Local/private files
+.env
+local_config.yaml
+secrets.yaml
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
